@@ -95,7 +95,7 @@ public class Main {
     //Makes list of actual prime numbers
     private static List<Integer> numbersToPrimes(List<Boolean> numbers) {
         List<Integer> primes = new ArrayList<>();
-        for (int i = 0; i < numbers.size(); i++) {
+        for (int i = 1; i < numbers.size(); i++) {
             if (numbers.get(i))
                 primes.add(i + 1);
         }
